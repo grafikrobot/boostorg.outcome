@@ -21,8 +21,7 @@
 //     (See accompanying file Licence.txt or copy at
 //           http://www.boost.org/LICENSE_1_0.txt)
 
-
-// Generated on 2024-08-08T21:42:04
+// Generated on 2024-08-12T21:44:07
 
 #ifndef BOOST_OUTCOME_INLINE_GDB_PRETTY_PRINTER_H
 #define BOOST_OUTCOME_INLINE_GDB_PRETTY_PRINTER_H
@@ -34,8 +33,7 @@
 #pragma clang diagnostic ignored "-Woverlength-strings"
 #endif
 __asm__(".pushsection \".debug_gdb_scripts\", \"MS\",@progbits,1\n"
-        ".byte 4 /* Python Text */\n"
-        ".ascii \"gdb.inlined-script\\n\"\n"
+        ".ascii \"\\4gdb.inlined-script.BOOST_OUTCOME_INLINE_GDB_PRETTY_PRINTER_H\\n\"\n"
         ".ascii \"import gdb.printing\\n\"\n"
         ".ascii \"import os\\n\"\n"
 
@@ -159,6 +157,6 @@ __asm__(".pushsection \".debug_gdb_scripts\", \"MS\",@progbits,1\n"
 #pragma clang diagnostic pop
 #endif
 #endif // defined(__ELF__)
-#endif // !defined(BOOST_OUTCOME_GDB_DISABLE_INLINE)
+#endif // !defined(BOOST_OUTCOME_DISABLE_INLINE_GDB_PRETTY_PRINTERS)
 
-#endif // !defined(BOOST_OUTCOME_GDB_INLINE_H)
+#endif // !defined(BOOST_OUTCOME_INLINE_GDB_PRETTY_PRINTER_H)
